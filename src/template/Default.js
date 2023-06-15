@@ -1,8 +1,10 @@
+import Header from '../components/Header'
 
 const Default = ({ children }) =>  {
     return (
         <>
-            <header>HEADER</header>
+            <Header />
+            {children}
             <footer>FOOTER</footer>
         </>
     )
